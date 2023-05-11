@@ -1,0 +1,5 @@
+# Include these additional lines in your /local.zeek file
+
+# Extra information for SSL.log
+@load policy/protocols/ssl/ssl-log-ext.zeek
+@load /opt/zeek/share/zeek/base/protocols/ssl/ampli_files.zeek

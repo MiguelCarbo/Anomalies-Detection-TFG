@@ -3,3 +3,6 @@
 # Extra information for SSL.log
 @load policy/protocols/ssl/ssl-log-ext.zeek
 @load /opt/zeek/share/zeek/base/protocols/ssl/ampli_files.zeek
+@load policy/protocols/ssl/validate-certs.zeek
+@load policy/protocols/ssl/validate-ocsp.zeek
+@load policy/protocols/ssl/validate-sct.zeek
